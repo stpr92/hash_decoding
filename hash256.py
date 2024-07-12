@@ -19,7 +19,7 @@ def hash_password_hack(input_file_name, output_file_name):
                     if list_row[1]==key :
                         c.append(a[key])  
                 writer.writerow(b+c)
-hash_password_hack('input_1','passwords')                        
+                        
                 
 
     
